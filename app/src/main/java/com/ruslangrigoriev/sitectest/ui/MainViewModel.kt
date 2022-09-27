@@ -1,12 +1,11 @@
 package com.ruslangrigoriev.sitectest.ui
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ruslangrigoriev.sitectest.domain.AuthenticateUseCase
-import com.ruslangrigoriev.sitectest.domain.GetUserListUseCase
+import com.ruslangrigoriev.sitectest.domain.usecase.AuthenticateUseCase
+import com.ruslangrigoriev.sitectest.domain.usecase.GetUserListUseCase
 import com.ruslangrigoriev.sitectest.domain.entity.users.User
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler

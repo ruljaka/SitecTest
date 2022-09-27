@@ -8,7 +8,6 @@ import android.os.Build.VERSION
 import android.os.Build.VERSION_CODES
 import android.os.Bundle
 import android.telephony.TelephonyManager
-import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts.RequestPermission
@@ -89,7 +88,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             UUID.randomUUID().toString()
         }
         saveIMEI(imei)
-        Log.d("TAG", UUID.randomUUID().toString())
     }
 
     private fun showLoading(loading: Boolean) {

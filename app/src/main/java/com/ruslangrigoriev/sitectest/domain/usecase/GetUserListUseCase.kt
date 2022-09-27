@@ -1,6 +1,6 @@
-package com.ruslangrigoriev.sitectest.domain
+package com.ruslangrigoriev.sitectest.domain.usecase
 
-import com.ruslangrigoriev.sitectest.domain.Repository
+import com.ruslangrigoriev.sitectest.domain.repository.Repository
 import javax.inject.Inject
 
 class GetUserListUseCase @Inject constructor (

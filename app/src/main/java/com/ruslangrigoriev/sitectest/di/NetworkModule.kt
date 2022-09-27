@@ -83,7 +83,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun provideInterceptor(@ApplicationContext appContext: Context): Interceptor {
+    fun provideInterceptor(): Interceptor {
         return Interceptor { chain ->
             var request = chain.request()
             val credentials = Credentials.basic("http", "http")

@@ -1,4 +1,4 @@
-package com.ruslangrigoriev.sitectest.domain
+package com.ruslangrigoriev.sitectest.domain.repository
 
 import com.ruslangrigoriev.sitectest.domain.entity.auth.Authentication
 import com.ruslangrigoriev.sitectest.domain.entity.users.User

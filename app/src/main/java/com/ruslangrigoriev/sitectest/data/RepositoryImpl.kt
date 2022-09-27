@@ -1,7 +1,7 @@
 package com.ruslangrigoriev.sitectest.data
 
 import android.content.Context
-import com.ruslangrigoriev.sitectest.domain.Repository
+import com.ruslangrigoriev.sitectest.domain.repository.Repository
 import com.ruslangrigoriev.sitectest.domain.entity.auth.Authentication
 import com.ruslangrigoriev.sitectest.domain.entity.users.User
 import retrofit2.Response
